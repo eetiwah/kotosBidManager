@@ -7,7 +7,7 @@
 
 # Linux executables (no extension, common patterns)
 # Ignore specific known executables
-kotoBidManager/kotoBidManager
+kotosBidManager/kotosBidManager
 
 # env file
 #.env
