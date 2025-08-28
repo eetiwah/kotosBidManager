@@ -15,7 +15,7 @@ import (
 
 var (
 	client       *mongo.Client
-	databaseName = "digitalthread"
+	databaseName = "kotosAuction"
 )
 
 func init() {
