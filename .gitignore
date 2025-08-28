@@ -1,0 +1,16 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Linux executables (no extension, common patterns)
+# Ignore specific known executables
+kotoBidManager/kotoBidManager
+
+# env file
+#.env
+*.pem
+*.db
+*.lock
