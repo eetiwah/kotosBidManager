@@ -50,6 +50,7 @@ func main() {
 	r.HandleFunc("/startAuction/{auctionId}", StartAuction).Methods("PUT")
 	r.HandleFunc("/stopAuction/{auctionId}", StopAuction).Methods("PUT")
 	r.HandleFunc("/getAuctionWinner/{auctionId}", GetAuctionWinner).Methods("GET")
+	r.HandleFunc("/setAuctionWinner/{auctionId}/{bidId}", SetAuctionWinner).Methods("PUT")
 
 	// Bid functions
 	r.HandleFunc("/addBid", AddBid).Methods("POST")

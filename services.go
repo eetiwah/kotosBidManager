@@ -299,7 +299,7 @@ func SetAuctionWinner(w http.ResponseWriter, r *http.Request) {
 
 	_, err = client.Database(databaseName).
 		Collection(auctionCollection).
-		ReplaceOne(ctx, bson.M{"auctionid": auctionId}, auctionObj)
+		ReplaceOne(ctx, bson.M{"id": auctionId}, auctionObj)
 	if err != nil {
 		http.Error(w, "update error", http.StatusInternalServerError)
 		return
